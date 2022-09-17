@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+	<displayName />
+	<description />
+	<resources>
+		<stringTable>
+			<string id="Application">Visual Studio Code</string>
+			<string id="Supported_1_67">Visual Studio Code &gt;= 1.67</string>
+			<string id="Category_updateConfigurationTitle">更新</string>
+			<string id="UpdateMode">UpdateMode</string>
+			<string id="UpdateMode_updateMode">配置是否接收自动更新。更改后需要重新启动。更新是从微软在线服务获取的。</string>
+			<string id="UpdateMode_none">禁用更新。</string>
+			<string id="UpdateMode_manual">禁用自动后台更新检查。如果手动检查更新，更新将可用。</string>
+			<string id="UpdateMode_start">仅在启动时检查更新。禁用自动后台更新检查。</string>
+			<string id="UpdateMode_default">启用自动更新检查。代码将定期自动检查更新。</string>
+		</stringTable>
+		<presentationTable>
+			<presentation id="UpdateMode"><dropdownList refId="UpdateMode" /></presentation>
+		</presentationTable>
+	</resources>
+</policyDefinitionResources>

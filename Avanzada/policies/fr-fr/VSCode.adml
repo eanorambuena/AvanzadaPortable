@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+	<displayName />
+	<description />
+	<resources>
+		<stringTable>
+			<string id="Application">Visual Studio Code</string>
+			<string id="Supported_1_67">Visual Studio Code &gt;= 1.67</string>
+			<string id="Category_updateConfigurationTitle">Mettre à jour</string>
+			<string id="UpdateMode">UpdateMode</string>
+			<string id="UpdateMode_updateMode">Choisissez si vous voulez recevoir des mises à jour automatiques. Nécessite un redémarrage après le changement. Les mises à jour sont récupérées auprès d'un service en ligne Microsoft.</string>
+			<string id="UpdateMode_none">Désactivez les mises à jour.</string>
+			<string id="UpdateMode_manual">Désactivez la recherche de mises à jour automatique en arrière-plan. Les mises à jour sont disponibles si vous les rechercher manuellement.</string>
+			<string id="UpdateMode_start">Vérifiez les mises à jour uniquement au démarrage. Désactivez les vérifications de mises à jour d'arrière-plan automatiques.</string>
+			<string id="UpdateMode_default">Activez la recherche de mises à jour automatique pour que VS Code recherche les mises à jour automatiquement et régulièrement.</string>
+		</stringTable>
+		<presentationTable>
+			<presentation id="UpdateMode"><dropdownList refId="UpdateMode" /></presentation>
+		</presentationTable>
+	</resources>
+</policyDefinitionResources>

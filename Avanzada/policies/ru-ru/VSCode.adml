@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+	<displayName />
+	<description />
+	<resources>
+		<stringTable>
+			<string id="Application">Visual Studio Code</string>
+			<string id="Supported_1_67">Visual Studio Code &gt;= 1.67</string>
+			<string id="Category_updateConfigurationTitle">Обновить</string>
+			<string id="UpdateMode">UpdateMode</string>
+			<string id="UpdateMode_updateMode">Укажите, нужно ли вам получать автоматические обновления. После изменения требуется перезагрузка. Для получения обновлений используется веб-служба Майкрософт.</string>
+			<string id="UpdateMode_none">Отключите обновления.</string>
+			<string id="UpdateMode_manual">Отключение автоматических фоновых проверок на наличие обновлений. Обновления будут доступны, если вы вручную проверите их наличие.</string>
+			<string id="UpdateMode_start">Проверять наличие обновлений только при запуске. Отключить автоматическую проверку обновлений в фоновом режиме.</string>
+			<string id="UpdateMode_default">Включение автоматических проверок обновлений. Code будет периодически проверять наличие обновлений в автоматическом режиме.</string>
+		</stringTable>
+		<presentationTable>
+			<presentation id="UpdateMode"><dropdownList refId="UpdateMode" /></presentation>
+		</presentationTable>
+	</resources>
+</policyDefinitionResources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+	<displayName />
+	<description />
+	<resources>
+		<stringTable>
+			<string id="Application">Visual Studio Code</string>
+			<string id="Supported_1_67">Visual Studio Code &gt;= 1.67</string>
+			<string id="Category_updateConfigurationTitle">Aktualizace</string>
+			<string id="UpdateMode">UpdateMode</string>
+			<string id="UpdateMode_updateMode">Umožňuje nakonfigurovat, jestli budete dostávat automatické aktualizace. Po změně vyžaduje restart. Aktualizace se načítají z online služby Microsoftu.</string>
+			<string id="UpdateMode_none">Zakázat aktualizace</string>
+			<string id="UpdateMode_manual">Zakázat automatické vyhledávání aktualizací na pozadí (aktualizace lze nechat vyhledat ručně)</string>
+			<string id="UpdateMode_start">Umožňuje vyhledat aktualizace pouze při spuštění. Zakáže automatické vyhledávání aktualizací na pozadí.</string>
+			<string id="UpdateMode_default">Umožňuje povolit automatické vyhledávání aktualizací. Code bude aktualizace vyhledávat automaticky a pravidelně.</string>
+		</stringTable>
+		<presentationTable>
+			<presentation id="UpdateMode"><dropdownList refId="UpdateMode" /></presentation>
+		</presentationTable>
+	</resources>
+</policyDefinitionResources>

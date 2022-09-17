@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+	<displayName />
+	<description />
+	<resources>
+		<stringTable>
+			<string id="Application">Visual Studio Code</string>
+			<string id="Supported_1_67">Visual Studio Code &gt;= 1.67</string>
+			<string id="Category_updateConfigurationTitle">更新</string>
+			<string id="UpdateMode">UpdateMode</string>
+			<string id="UpdateMode_updateMode">設定是否要接收自動更新。變更後需要重新啟動。系統會從 Microsoft 線上服務擷取更新。</string>
+			<string id="UpdateMode_none">停用更新。</string>
+			<string id="UpdateMode_manual">停用自動背景更新檢查。若您手動檢查更新，可取得更新。</string>
+			<string id="UpdateMode_start">僅在啟動時檢查更新。停用自動背景更新檢查。</string>
+			<string id="UpdateMode_default">啟用自動更新檢查。程式碼會自動並定期檢查更新。</string>
+		</stringTable>
+		<presentationTable>
+			<presentation id="UpdateMode"><dropdownList refId="UpdateMode" /></presentation>
+		</presentationTable>
+	</resources>
+</policyDefinitionResources>

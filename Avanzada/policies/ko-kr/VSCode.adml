@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+	<displayName />
+	<description />
+	<resources>
+		<stringTable>
+			<string id="Application">Visual Studio Code</string>
+			<string id="Supported_1_67">Visual Studio Code &gt;= 1.67</string>
+			<string id="Category_updateConfigurationTitle">업데이트</string>
+			<string id="UpdateMode">UpdateMode</string>
+			<string id="UpdateMode_updateMode">자동 업데이트를 받을지 여부를 구성합니다. 변경 후 다시 시작해야 합니다. 업데이트는 Microsoft 온라인 서비스에서 가져옵니다.</string>
+			<string id="UpdateMode_none">업데이트를 사용하지 않도록 설정합니다.</string>
+			<string id="UpdateMode_manual">자동 백그라운드 업데이트 확인을 사용하지 않도록 설정합니다. 업데이트를 수동으로 확인하여 진행할 수 있습니다.</string>
+			<string id="UpdateMode_start">시작할 때만 업데이트를 확인합니다. 자동 백그라운드 업데이트 검사를 사용하지 않도록 설정합니다.</string>
+			<string id="UpdateMode_default">자동 업데이트 확인을 사용하도록 설정합니다. Code에서 정기적으로 업데이트를 자동 확인합니다.</string>
+		</stringTable>
+		<presentationTable>
+			<presentation id="UpdateMode"><dropdownList refId="UpdateMode" /></presentation>
+		</presentationTable>
+	</resources>
+</policyDefinitionResources>

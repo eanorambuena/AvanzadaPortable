@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+	<displayName />
+	<description />
+	<resources>
+		<stringTable>
+			<string id="Application">Visual Studio Code</string>
+			<string id="Supported_1_67">Visual Studio Code &gt;= 1.67</string>
+			<string id="Category_updateConfigurationTitle">Güncelleştir</string>
+			<string id="UpdateMode">UpdateMode</string>
+			<string id="UpdateMode_updateMode">Otomatik güncelleştirmeleri alıp almayacağınızı yapılandırın. Değişiklikten sonra yeniden başlatma gerektirir. Güncelleştirmeler bir Microsoft çevrimiçi hizmetinden getirilir.</string>
+			<string id="UpdateMode_none">Güncelleştirmeleri devre dışı bırak.</string>
+			<string id="UpdateMode_manual">Otomatik arka plan güncelleştirme denetimlerini devre dışı bırak. El ile denetlerseniz güncelleştirmeler kullanılabilir.</string>
+			<string id="UpdateMode_start">Güncelleştirmeleri yalnızca başlangıçta denetle. Otomatik arka plan güncelleştirme denetimlerini devre dışı bırak.</string>
+			<string id="UpdateMode_default">Otomatik güncelleştirme denetimlerini etkinleştir. Kod, güncelleştirmeleri otomatik ve düzenli olarak denetler.</string>
+		</stringTable>
+		<presentationTable>
+			<presentation id="UpdateMode"><dropdownList refId="UpdateMode" /></presentation>
+		</presentationTable>
+	</resources>
+</policyDefinitionResources>

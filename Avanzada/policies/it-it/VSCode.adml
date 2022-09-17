@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+	<displayName />
+	<description />
+	<resources>
+		<stringTable>
+			<string id="Application">Visual Studio Code</string>
+			<string id="Supported_1_67">Visual Studio Code &gt;= 1.67</string>
+			<string id="Category_updateConfigurationTitle">Aggiorna</string>
+			<string id="UpdateMode">UpdateMode</string>
+			<string id="UpdateMode_updateMode">Consente di configurare la ricezione degli aggiornamenti automatici. Richiede un riavvio dopo la modifica. Gli aggiornamenti vengono recuperati da un servizio online Microsoft.</string>
+			<string id="UpdateMode_none">Disabilita gli aggiornamenti.</string>
+			<string id="UpdateMode_manual">Disabilita il controllo automatico degli aggiornamenti in background. Gli aggiornamenti saranno disponibili solo se il controllo della disponibilità di aggiornamenti viene eseguito manualmente.</string>
+			<string id="UpdateMode_start">Controlla la disponibilità di aggiornamenti solo all'avvio. Disabilita i controlli automatici degli aggiornamenti in background.</string>
+			<string id="UpdateMode_default">Abilita il controllo automatico degli aggiornamenti. Code controlla periodicamente la disponibilità di aggiornamenti in modo automatico.</string>
+		</stringTable>
+		<presentationTable>
+			<presentation id="UpdateMode"><dropdownList refId="UpdateMode" /></presentation>
+		</presentationTable>
+	</resources>
+</policyDefinitionResources>
